@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(DSC00998.jpg) center/cover no-repeat;
+    background-size: 100%;
+    background-position: center;
+    color: rgb(255, 255, 255);
+}
+
+
+.gradient-section {
+    background-color: blue;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(230, 229, 229, 0.715), rgba(0, 0, 255, 0.712));
+    background-size: 100%;
+    background-position: left;
+}
+
+
+.solid-section {
+    background-color: rgb(165, 166, 186);
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: 100%;
+    background-position: left;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+}
+
+@keyframes background-move {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+    
+}
